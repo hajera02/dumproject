@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Verify user Signup2",
+        "description": "",
+        "id": "this-is-testing-feature;verify-user-signup2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2170582700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Launch \"\u003cURL\u003e\" Applicationss",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "framework24_Stepdefit.launch_Applicationss(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1318522100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on Signup",
+            "match": {
+              "location": "framework24_Stepdefit.click_on_Signup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15319326200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter Username Password Click Signup button",
+            "match": {
+              "location": "framework24_Stepdefit.enter_Username_Password_Click_Signup_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3409652400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify user can signup successfully",
+            "match": {
+              "location": "framework24_Stepdefit.verify_user_can_signup_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Framework"
+          }
+        ]
+      }
+    ],
+    "name": "This is testing feature",
+    "description": "",
+    "id": "this-is-testing-feature",
+    "keyword": "Feature",
+    "uri": "testfeature.feature"
+  }
+]
